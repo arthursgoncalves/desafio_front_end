@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-5 hcenter">
+            Uma seleção de produtos
+          </h1>
+          <h2 class="display-4 hcenter">
+            especial para você
+          </h2>
+          <br />
+          <div class="bcenter">
+            <button type="button" class="btn btn-outline-dark btn-sm scpb">
+              Conheça a Linx
+            </button>
+            <button type="button" class="btn btn-outline-dark btn-sm scpb">
+              Ajude o algoritimo
+            </button>
+            <button type="button" class="btn btn-outline-dark btn-sm scpb">
+              Seus produtos
+            </button>
+            <button type="button" class="btn btn-outline-dark btn-sm scpb">
+              Compartilhe
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row" id="card"></div>
+    </div>
+    <br />
+
+    <div class="container txtcenter">
+      <button
+        id="idBrabo"
+        type="button"
+        class="btn btn-outline-secondary btn-lg"
+      >
+        Ainda mais produtos aqui!
+      </button>
+    </div>
+    <br />
+
+    <div class="jumbotron jumbotron-fluid bg-white text-dark">
+      <div class="container">
+        <h1 class="display-4 txtcenter">Compartilhe a novidade</h1>
+        <p class="lead txtcenter">
+          Quer que seus amigos também ganhem a lista personalizada? Preencha
+          agora!
+        </p>
+        <br />
+        <div class="container">
+          <form>
+            <div class="row">
+              <div class="col-md">
+                <label for="inputnome">Nome do seu amigo:</label>
+                <input
+                  type="text"
+                  id="inputnome"
+                  class="form-control"
+                  placeholder="Nome do seu amigo:"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <label for="msgemail">Email do seu amigo:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="msgemail"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+            <div class="bcenter">
+              <button type="submit" class="btn btn-outline-secondary btn-lg">
+                Enviar agora
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="txtcenter scpfooter">
+        <div class="container">
+          <p style="margin: 0;">Copyright @2019</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./jquery.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
